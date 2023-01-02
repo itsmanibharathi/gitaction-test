@@ -1,4 +1,4 @@
-name: Super-Linter
+name: Main-Workflow
 
 on:
    push:
@@ -13,4 +13,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Test code
-        run: echo "hi ima testing in main"
+        run: echo "hi iam testing in main"
